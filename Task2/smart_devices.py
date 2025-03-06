@@ -1,3 +1,6 @@
+# My student ID is 2247637.
+# Unique Last Digits:3,7
+# Classes to implement: SmartTV, SmartWashingMachine
 class SmartDevice:
     def __init__(self):
         self.switched_on = False

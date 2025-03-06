@@ -1,4 +1,4 @@
-from smartplug import SmartPlug
+from smart_plug import SmartPlug
 
 def test_smart_plug():
     try:
@@ -38,5 +38,7 @@ def test_smart_plug():
         
     except Exception as e:
         print("Unexpected error:", e)
+
+    print(plug)
 
 test_smart_plug()
